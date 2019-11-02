@@ -1,0 +1,15 @@
+{
+  "name": "devmentes-node-skeleton",
+  "version": "1.0.0",
+  "description": "Base project sekeleton for simple nodejs applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "sekeleton"
+  ],
+  "author": "Camilo Alaniz",
+  "license": "ISC"
+}
