@@ -1,6 +1,6 @@
 const express = require('express');
-const security = express();
+const example = express();
 
-security.use('/security', require('./routes'));
+example.use('/examples', require('./routes'));
 
-module.exports = security;
+module.exports = example;
