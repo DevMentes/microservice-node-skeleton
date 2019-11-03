@@ -1,7 +1,7 @@
 {
-  "name": "devmentes-node-skeleton",
+  "name": "microhawk-api",
   "version": "1.0.0",
-  "description": "Base project sekeleton for simple nodejs applications",
+  "description": "api for microhawk-api",
   "main": "app.js",
   "scripts": {
     "start": "server/www",

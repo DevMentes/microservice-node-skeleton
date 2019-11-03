@@ -1,6 +1,8 @@
 const router = require("express").Router();
-const examplesController = require("./controllers/examplesController");
+const logsController = require("./controllers/logsController");
+const eventsController = require("./controllers/eventsController");
 
-router.get("/", examplesController.getExample)
+router.get("/logs", logsController.getLogs);
+router.get("/events", eventsController.getEvents);
 
 module.exports = router;

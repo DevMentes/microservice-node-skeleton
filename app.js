@@ -1,6 +1,6 @@
-require('dotenv').config();
+require("dotenv").config();
 const express = require("express");
-const parser =  require("body-parser");
+const parser = require("body-parser");
 const helmet = require("helmet");
 const cors = require("cors");
 const app = express();
@@ -13,9 +13,9 @@ app.use(cors());
 app.use("", example);
 
 app.get("/", (request, response) => {
-    response.json({
-	message: "Project is working."
-    })
+  response.json({
+    message: "Project is working."
+  });
 });
 
 module.exports = app;

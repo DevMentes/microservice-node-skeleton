@@ -1,6 +1,8 @@
-const express = require('express');
+const express = require("express");
 const example = express();
+const listeners = require("./listeners/index");
 
-example.use('/examples', require('./routes'));
+listeners.run();
+example.use("/logger", require("./routes"));
 
 module.exports = example;

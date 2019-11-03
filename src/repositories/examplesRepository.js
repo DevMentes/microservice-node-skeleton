@@ -1,4 +1,4 @@
-const Example = require("./../models/Example");
+const Example = require("../models/Log");
 
 const byId = async (exampleId) => {
     return await Example.findById(exampleId);
